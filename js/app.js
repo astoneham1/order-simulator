@@ -20,6 +20,7 @@ if (restaurantId) {
     document.body.innerHTML = "<h1>No Restaurant ID provided in URL</h1>";
 }
 
+// rendering
 function renderRestaurant(data) {
     // title and tagline
     document.getElementById('rest-name').innerText = data.name;
@@ -50,13 +51,19 @@ function renderRestaurant(data) {
     const container = document.getElementById('menu-container');
     container.innerHTML = ''; // clear anything from before
 
-    data.menu.forEach(category => {
+    data.menu.forEach((category, index) => {
+        const gridId = `grid-${index}`;
+
         const categoryHtml = `
             <section class="menu-category">
-                <h2 class="category-title">${category.categoryName}</h2>
+                <div class="category-header" onclick="toggleCategory('${gridId}', this)">
+                    <h2 class="category-title">${category.categoryName}</h2>
+                    <span class="arrow-icon">▼</span>
+                </div>
+
                 ${category.description ? `<p class="category-description">${category.description}</p>` : ''}
                 
-                <div class="menu-grid">
+                <div id="${gridId}" class="menu-grid">
                     ${category.items.map(item => `
                         <div class="food-card">
                             ${item.image ? `<img src="${item.image}" alt="${item.name}" style="width:100%; height:150px; object-fit:cover; border-radius:4px;">` : ''}
@@ -73,6 +80,20 @@ function renderRestaurant(data) {
         `;
         container.innerHTML += categoryHtml;
     });
+}
+
+// collapsing categories
+function toggleCategory(gridId, headerElement) {
+    const grid = document.getElementById(gridId);
+    const arrow = headerElement.querySelector('.arrow-icon');
+
+    if (grid.classList.contains('hidden')) {
+        grid.classList.remove('hidden');
+        arrow.classList.remove('collapsed');
+    } else {
+        grid.classList.add('hidden');
+        arrow.classList.add('collapsed');
+    }
 }
 
 // cart handling
