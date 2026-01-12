@@ -1,0 +1,39 @@
+{
+  "id": "the_star",
+  "name": "The Star",
+  "tagline": "",
+  "styling": {
+    "primaryColor": "#D32F2F",
+    "fontFamily": "Georgia, serif"
+  },
+  "assets": {
+    "heroImage": "",
+    "logo": ""
+  },
+  "menu": [
+    {
+      "categoryName": "Starters",
+      "items": [
+        {
+          "id": "",
+          "name": "",
+          "description": "",
+          "price": 0.00,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "categoryName": "Mains",
+      "items": [
+        {
+          "id": "",
+          "name": "",
+          "description": "",
+          "price": 0.00,
+          "image": ""
+        }
+      ]
+    }
+  ]
+}
