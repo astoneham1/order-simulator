@@ -1,0 +1,82 @@
+// setup
+const params = new URLSearchParams(window.location.search);
+const restaurantId = params.get('id');
+
+// fetch
+if (restaurantId) {
+    fetch(`data/${restaurantId}.json`)
+        .then(response => {
+            if (!response.ok) throw new Error("Restaurant not found");
+            return response.json();
+        })
+        .then(data => {
+            renderRestaurant(data);
+        })
+        .catch(err => {
+            console.error(err);
+            document.body.innerHTML = "<h1>Error loading restaurant. Check console.</h1>";
+        });
+} else {
+    document.body.innerHTML = "<h1>No Restaurant ID provided in URL</h1>";
+}
+
+function renderRestaurant(data) {
+    // title and tagline
+    document.getElementById('rest-name').innerText = data.name;
+    document.getElementById('rest-tagline').innerText = data.tagline;
+
+    // theme
+    document.documentElement.style.setProperty('--primary-color', data.styling.primaryColor);
+
+    // hero image
+    const header = document.getElementById('restaurant-header');
+    if (data.assets.heroImage) {
+        header.style.backgroundImage = `url('${data.assets.heroImage}')`;
+    } else {
+        // fallback: remove image to show just the color
+        header.style.backgroundImage = 'none';
+    }
+
+    // logo
+    const logoImg = document.getElementById('rest-logo');
+    if (data.assets.logo) {
+        logoImg.src = data.assets.logo;
+        logoImg.style.display = 'inline-block';
+    } else {
+        logoImg.style.display = 'none'; // fallback
+    }
+
+    // menu
+    const container = document.getElementById('menu-container');
+    container.innerHTML = ''; // clear anything from before
+
+    data.menu.forEach(category => {
+        const categoryHtml = `
+            <section class="menu-category">
+                <h2 class="category-title">${category.categoryName}</h2>
+                ${category.description ? `<p class="category-description">${category.description}</p>` : ''}
+                
+                <div class="menu-grid">
+                    ${category.items.map(item => `
+                        <div class="food-card">
+                            ${item.image ? `<img src="${item.image}" alt="${item.name}" style="width:100%; height:150px; object-fit:cover; border-radius:4px;">` : ''}
+                            <h3>${item.name}</h3>
+                            <p>${item.description}</p>
+                            <div class="price-row">
+                                <span>£${item.price.toFixed(2)}</span>
+                                <button class="add-btn" onclick="addToCart('${item.id}', '${item.name}', ${item.price})">Add +</button>
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            </section>
+        `;
+        container.innerHTML += categoryHtml;
+    });
+}
+
+// cart handling
+function addToCart(id, name, price) {
+    console.log(`Added ${name} for £${price}`);
+    alert(`Added ${name} to order!`);
+}

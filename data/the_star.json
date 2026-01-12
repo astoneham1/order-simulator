@@ -1,0 +1,193 @@
+{
+  "id": "the_star",
+  "name": "The Star",
+  "tagline": "A perfect takeaway option for a Friday Night with all of Britain's favourite Chinese dishes.",
+  "styling": {
+    "primaryColor": "#D32F2F",
+    "fontFamily": "Georgia, serif"
+  },
+  "assets": {
+    "heroImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/e2/e2/3d/sunday-quiz-night.jpg?w=900&h=-1&s=1",
+    "logo": "https://www.thestarmalvern.co.uk/images/assets/logo.png"
+  },
+  "menu": [
+    {
+      "categoryName": "Starters",
+      "description": "",
+      "items": [
+        {
+          "id": "spring-roll",
+          "name": "Spring Rolls",
+          "description": "",
+          "price": 5.99,
+          "image": "https://thai-foodie.com/wp-content/uploads/2023/07/thai-egg-rolls-redo.jpg"
+        },
+        {
+          "id": "seaweed",
+          "name": "Seaweed",
+          "description": "Salty as fuuuuck",
+          "price": 5.99,
+          "image": "https://media.riverford.co.uk/images/photo-1100x1100-91d151e75b6d3095732d5f8f23972cd7.jpg"
+        },
+        {
+          "id": "prawn-toast",
+          "name": "Prawn Toast",
+          "description": "Lush",
+          "price": 5.99,
+          "image": ""
+        },
+        {
+          "id": "chicken-satay",
+          "name": "Chicken Satay Skewers",
+          "description": "",
+          "price": 5.99,
+          "image": ""
+        },
+        {
+          "id": "honey-ribs",
+          "name": "Honey Spare Ribs",
+          "description": "",
+          "price": 5.99,
+          "image": ""
+        },
+        {
+          "id": "wontons",
+          "name": "Crispy Wontons",
+          "description": "",
+          "price": 5.99,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "categoryName": "Mains",
+      "description": "Can be made with chicken, beef, prawn, duck, or vegetarian chicken",
+      "items": [
+        {
+          "id": "black-bean",
+          "name": "Black Bean",
+          "description": "",
+          "price": 9.99,
+          "image": ""
+        },
+        {
+          "id": "satay",
+          "name": "Satay",
+          "description": "",
+          "price": 9.99,
+          "image": ""
+        },
+        {
+          "id": "sweet-sour",
+          "name": "Sweet and Sour Cantonese Style",
+          "description": "",
+          "price": 9.99,
+          "image": ""
+        },
+        {
+          "id": "chow-mein",
+          "name": "Chow Mein",
+          "description": "",
+          "price": 9.99,
+          "image": ""
+        },
+        {
+          "id": "sichuan",
+          "name": "Sichuan Sauce",
+          "description": "",
+          "price": 9.99,
+          "image": ""
+        },
+        {
+          "id": "salt-pepper",
+          "name": "Salt and Pepper",
+          "description": "",
+          "price": 9.99,
+          "image": ""
+        },
+        {
+          "id": "lemon-honey",
+          "name": "Lemon Honey",
+          "description": "",
+          "price": 9.99,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "categoryName": "Sides",
+      "description": "",
+      "items" : [
+        {
+          "id": "egg-rice",
+          "name": "Egg Fried Rice",
+          "description": "",
+          "price": 5.99,
+          "image": ""
+        },
+        {
+          "id": "boiled-rice",
+          "name": "Boiled Rice",
+          "description": "",
+          "price": 5.99,
+          "image": ""
+        },
+        {
+          "id": "chips",
+          "name": "Chips",
+          "description": "",
+          "price": 5.99,
+          "image": ""
+        },
+        {
+          "id": "prawn-crackers",
+          "name": "Prawn Crackers",
+          "description": "",
+          "price": 5.99,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "categoryName": "Sauces",
+      "description": "",
+      "items" : [
+        {
+          "id": "sweet-sour-sauce",
+          "name": "Sweet and Sour Sauce",
+          "description": "",
+          "price": 2.99,
+          "image": ""
+        },
+        {
+          "id": "curry-sauce",
+          "name": "Curry Sauce",
+          "description": "",
+          "price": 2.99,
+          "image": ""
+        },
+        {
+          "id": "satay-sauce",
+          "name": "Satay Sauce",
+          "description": "",
+          "price": 2.99,
+          "image": ""
+        },
+        {
+          "id": "kung-pao-sauce",
+          "name": "Kung Pao sauce",
+          "description": "",
+          "price": 2.99,
+          "image": ""
+        },
+        {
+          "id": "thai-chilli-sauce",
+          "name": "Thai Chilli Sauce",
+          "description": "",
+          "price": 2.99,
+          "image": ""
+        }
+      ]
+    }
+  ]
+}
