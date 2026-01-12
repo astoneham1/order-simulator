@@ -4,7 +4,8 @@
   "tagline": "A perfect takeaway option for a Friday Night with all of Britain's favourite Chinese dishes.",
   "styling": {
     "primaryColor": "#D32F2F",
-    "fontFamily": "Georgia, serif"
+    "fontFamily": "Georgia, serif",
+    "titleColor": ""
   },
   "assets": {
     "heroImage": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/e2/e2/3d/sunday-quiz-night.jpg?w=900&h=-1&s=1",
