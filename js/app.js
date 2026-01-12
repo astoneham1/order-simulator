@@ -23,11 +23,26 @@ if (restaurantId) {
 // rendering
 function renderRestaurant(data) {
     // title and tagline
-    document.getElementById('rest-name').innerText = data.name;
-    document.getElementById('rest-tagline').innerText = data.tagline;
+    const titleElement = document.getElementById('rest-name');
+    titleElement.innerText = data.name;
+    const taglineElement = document.getElementById('rest-tagline');
+    taglineElement.innerText = data.tagline;
 
     // theme
     document.documentElement.style.setProperty('--primary-color', data.styling.primaryColor);
+
+    // tagline colour
+    if (data.styling.titleColor) {
+        titleElement.style.color = data.styling.titleColor;
+        titleElement.style.textShadow = 'none';
+        taglineElement.style.color = data.styling.titleColor;
+        taglineElement.style.textShadow = 'none';
+    } else {
+        titleElement.style.color = '';
+        titleElement.style.textShadow = '';
+        taglineElement.style.color = '';
+        taglineElement.style.textShadow = '';
+    }
 
     // hero image
     const header = document.getElementById('restaurant-header');
