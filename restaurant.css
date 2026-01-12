@@ -124,3 +124,24 @@ body {
     cursor: pointer;
 }
 .add-btn:hover { opacity: 0.9; }
+
+@media (max-width: 768px) {
+    #restaurant-header {
+        display: flex;           /* Turns on Flexbox layout */
+        flex-direction: column;  /* Forces vertical stacking */
+        align-items: center;     /* Centers everything horizontally */
+        padding-top: 20px;       /* Adds space at the very top */
+    }
+
+    .back-button {
+        position: static;        /* "Static" puts it back into the normal page flow */
+        margin-bottom: 20px;     /* Pushes the logo down so they don't touch */
+
+        /* Optional: If you want the button on the far left, uncomment the line below: */
+        /* align-self: flex-start; */
+    }
+
+    #rest-logo {
+        margin-bottom: 15px;     /* Ensures space between logo and text */
+    }
+}
