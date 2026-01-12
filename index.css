@@ -1,9 +1,17 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url("images/index_bg.jpeg");
-    background-size: cover;
-    background-position: center;
+    font-family: "Permanent Marker", cursive; /* Your new font */
+
+    /* 1. The dark overlay (vignette) to make text readable */
+    /* 2. The High-Res Chalkboard Texture */
+    background-image:
+            radial-gradient(circle at center, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.8) 100%),
+            url("/images/index_bg.jpg");
+
+    background-size: cover;       /* Ensures it fills the screen without stretching weirdly */
+    background-position: center;  /* Centers the texture */
     background-repeat: no-repeat;
+    background-attachment: fixed; /* OPTIONAL: Keeps background still while you scroll */
+
     min-height: 100vh;
     margin: 0;
     color: white;
@@ -19,7 +27,7 @@ body {
     text-align: center;
 }
 
-#title h1, #title h2 {
+#title h1, #title h3 {
     margin: 5px 0;
 }
 
@@ -27,7 +35,7 @@ body {
     display: block;
     column-count: 2;
     column-gap: 60px;
-    margin: 10vh auto;
+    margin: 6vh auto;
     width: 80%;
     text-align: center;
     column-fill: balance;
@@ -68,7 +76,7 @@ body {
     margin-bottom: 5px;
     border-radius: 6px;
 
-    /* stupid border fix */
+    /* stupid border in animation fix */
     transform: translate3d(0, 0, 0);
     -webkit-transform: translate3d(0, 0, 0);
     backface-visibility: hidden;
@@ -86,7 +94,7 @@ body {
 }
 
 .menu-block .name {
-    font-size: 1.1rem;
+    font-size: 1.6rem;
     font-weight: bold;
     text-transform: lowercase;
     white-space: nowrap;
@@ -101,7 +109,7 @@ body {
 }
 
 .menu-block .country {
-    font-size: 1rem;
+    font-size: 1.4rem;
     text-transform: lowercase;
     opacity: 0.9;
     white-space: nowrap;
