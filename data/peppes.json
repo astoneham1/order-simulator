@@ -1,0 +1,208 @@
+{
+  "id": "peppes",
+  "name": "Peppe's",
+  "tagline": "A family run Italian restaurant rooted in Sicilian cuisine. All dishes are especially wonderful when accompanied by a Hugo Spritz.",
+  "styling": {
+    "primaryColor": "#114D78",
+    "fontFamily": "Georgia, serif",
+    "titleColor": ""
+  },
+  "assets": {
+    "heroImage": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Italy/Sicily/sicily-destination-guide-things-to-do-taormina.jpg?imwidth=640",
+    "logo": "https://www.peppesmalvern.co.uk/wp-content/uploads/2023/06/Peppes-Italian-Restaurant-Circle-logo-gold.svg"
+  },
+  "menu": [
+    {
+      "categoryName": "Starters",
+      "description": "",
+      "items": [
+        {
+          "id": "bruschetta",
+          "name": "Bruschetta",
+          "description": "",
+          "price": 5.99,
+          "image": ""
+        },
+        {
+          "id": "calamari",
+          "name": "Calamari",
+          "description": "",
+          "price": 5.99,
+          "image": ""
+        },
+        {
+          "id": "mussels",
+          "name": "Mussels",
+          "description": "",
+          "price": 5.99,
+          "image": ""
+        },
+        {
+          "id": "frito-misto",
+          "name": "Frito Misto",
+          "description": "",
+          "price": 5.99,
+          "image": ""
+        },
+        {
+          "id": "antipasti",
+          "name": "Antipasti",
+          "description": "",
+          "price": 5.99,
+          "image": ""
+        },
+        {
+          "id": "aubergine",
+          "name": "Aubergine Parmigiana",
+          "description": "",
+          "price": 5.99,
+          "image": ""
+        },
+        {
+          "id": "soup",
+          "name": "Soup of the Day",
+          "description": "",
+          "price": 5.99,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "categoryName": "Mains",
+      "description": "",
+      "items": [
+        {
+          "id": "vg-risotto",
+          "name": "Vegetable Risotto",
+          "description": "",
+          "price": 14.99,
+          "image": ""
+        },
+        {
+          "id": "pollo-peppe",
+          "name": "Pollo Peppe",
+          "description": "",
+          "price": 14.99,
+          "image": ""
+        },
+        {
+          "id": "penne-ab",
+          "name": "Penne all'Arrabbiata",
+          "description": "",
+          "price": 14.99,
+          "image": ""
+        },
+        {
+          "id": "at-tortellini",
+          "name": "Aubergine and tomato filled Tortellini",
+          "description": "",
+          "price": 14.99,
+          "image": ""
+        },
+        {
+          "id": "ragu-tagliatelle",
+          "name": "Ragu Tagliatelle",
+          "description": "",
+          "price": 14.99,
+          "image": ""
+        },
+        {
+          "id": "seabass",
+          "name": "Balsamic glazed seabass",
+          "description": "",
+          "price": 14.99,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "categoryName": "Sides",
+      "description": "",
+      "items": [
+        {
+          "id": "mixed-salad",
+          "name": "Mixed salad",
+          "description": "",
+          "price": 5.99,
+          "image": ""
+        },
+        {
+          "id": "bread",
+          "name": "Bread",
+          "description": "",
+          "price": 5.99,
+          "image": ""
+        },
+        {
+          "id": "vegetables",
+          "name": "Roasted Vegetables",
+          "description": "",
+          "price": 5.99,
+          "image": ""
+        },
+        {
+          "id": "fries",
+          "name": "Fries",
+          "description": "",
+          "price": 5.99,
+          "image": ""
+        },
+        {
+          "id": "courgette",
+          "name": "Battered courgette",
+          "description": "",
+          "price": 5.99,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "categoryName": "Desserts",
+      "description": "",
+      "items": [
+        {
+          "id": "tiramisu",
+          "name": "Tiramisu",
+          "description": "",
+          "price": 8.99,
+          "image": ""
+        },
+        {
+          "id": "panna-cotta",
+          "name": "Panna Cotta",
+          "description": "",
+          "price": 8.99,
+          "image": ""
+        },
+        {
+          "id": "cannoli",
+          "name": "Cannoli",
+          "description": "",
+          "price": 8.99,
+          "image": ""
+        },
+        {
+          "id": "cheesecake",
+          "name": "Berry Cheesecake",
+          "description": "",
+          "price": 8.99,
+          "image": ""
+        },
+        {
+          "id": "cp-tart",
+          "name": "Chocolate and pistachio tart",
+          "description": "",
+          "price": 8.99,
+          "image": ""
+        },
+        {
+          "id": "cheese-biscuits",
+          "name": "Cheese and biscuit selection",
+          "description": "",
+          "price": 8.99,
+          "image": ""
+        }
+      ]
+    }
+  ]
+}
