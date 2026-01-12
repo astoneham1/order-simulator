@@ -167,6 +167,43 @@ body.page-loaded {
 }
 .add-btn:hover { opacity: 0.9; }
 
+.error-container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.error-container h1 {
+    font-size: 3rem;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.error-container p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.error-btn {
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.error-btn:hover {
+    background-color: black;
+    transform: scale(1.05);
+}
+
 @media (max-width: 768px) {
     #restaurant-header {
         display: flex;

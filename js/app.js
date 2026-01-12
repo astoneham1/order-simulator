@@ -14,10 +14,24 @@ if (restaurantId) {
         })
         .catch(err => {
             console.error(err);
-            document.body.innerHTML = "<h1>Error loading restaurant. Check console.</h1>";
+            showError("Error loading restaurant. Check console");
         });
 } else {
-    document.body.innerHTML = "<h1>No Restaurant ID provided in URL</h1>";
+    showError("No Restaurant ID was provided in URL");
+}
+
+// error handling
+function showError(message) {
+    const container = document.getElementById('menu-container');
+
+    container.innerHTML = `
+        <div class="error-container">
+            <h1>404 - Kitchen Closed</h1>
+            <p>${message}</p>
+            <a href="index.html" class="error-btn">Return to Home</a>
+        </div>
+    `;
+    document.getElementById('restaurant-header').style.display = 'none';
 }
 
 // rendering
