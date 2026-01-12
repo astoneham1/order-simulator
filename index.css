@@ -7,7 +7,7 @@ body {
 
     background-image:
             radial-gradient(circle at center, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.8) 100%),
-            url("/images/index_bg.jpg");
+            url("images/index_bg.jpg");
 
     background-size: cover;
     background-position: center;
