@@ -100,7 +100,7 @@ function renderRestaurant(data) {
                             <p>${item.description}</p>
                             <div class="price-row">
                                 <span>£${item.price.toFixed(2)}</span>
-                                <button class="add-btn" onclick="addToCart('${item.id}', '${item.name}', ${item.price})">Add +</button>
+                                <button class="add-btn" onclick="addToCart('${item.id}', '${item.name.replace(/'/g, "\\'")}', ${item.price})">Add +</button>
                             </div>
                         </div>
                     `).join('')}
