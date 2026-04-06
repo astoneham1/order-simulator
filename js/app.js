@@ -78,14 +78,16 @@ function renderRestaurant(data) {
 
     // menu
     const container = document.getElementById('menu-container');
-    container.innerHTML = ''; // clear anything from before
+    
+    // BUILD THE ENTIRE HTML STRING IN MEMORY FIRST
+    let menuHtml = ''; 
 
     data.menu.forEach((category, index) => {
         const gridId = `grid-${index}`;
 
         const categoryHtml = `
             <section class="menu-category">
-                <div class="category-header" onclick="toggleCategory('${gridId}', this)">
+                <div class="category-header" data-action="toggle" data-target="${gridId}">
                     <h2 class="category-title">${category.categoryName}</h2>
                     <span class="arrow-icon">▼</span>
                 </div>
@@ -100,16 +102,42 @@ function renderRestaurant(data) {
                             <p>${item.description}</p>
                             <div class="price-row">
                                 <span>£${item.price.toFixed(2)}</span>
-                                <button class="add-btn" onclick="addToCart('${item.id}', '${item.name.replace(/'/g, "\\'")}', ${item.price})">Add +</button>
+                                <button class="add-btn" data-action="add" data-id="${item.id}" data-name="${item.name.replace(/"/g, '&quot;')}" data-price="${item.price}">Add +</button>
                             </div>
                         </div>
                     `).join('')}
                 </div>
             </section>
         `;
-        container.innerHTML += categoryHtml;
+        menuHtml += categoryHtml;
     });
+
+    // INJECT INTO DOM EXACTLY ONCE
+    container.innerHTML = menuHtml;
 }
+
+// attach a single event listener to the parent container
+document.getElementById('menu-container').addEventListener('click', function(e) {
+    
+    // check if a category header was clicked
+    const headerElement = e.target.closest('.category-header');
+    if (headerElement && headerElement.getAttribute('data-action') === 'toggle') {
+        const gridId = headerElement.getAttribute('data-target');
+        toggleCategory(gridId, headerElement);
+        return; // exit early
+    }
+
+    // check if an add to cart button was clicked
+    const addBtn = e.target.closest('.add-btn');
+    if (addBtn && addBtn.getAttribute('data-action') === 'add') {
+        const id = addBtn.getAttribute('data-id');
+        const name = addBtn.getAttribute('data-name');
+        const price = parseFloat(addBtn.getAttribute('data-price'));
+        addToCart(id, name, price);
+        return; // exit early
+    }
+});
+
 
 // collapsing categories
 function toggleCategory(gridId, headerElement) {
