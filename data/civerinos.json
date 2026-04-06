@@ -1,0 +1,222 @@
+{
+  "id": "civerinos",
+  "name": "Civerino's",
+  "tagline": "A pizzeria serving 2 different styles of pizza, with plenty of house dips for all your crusts and side dishes.",
+  "styling": {
+    "primaryColor": "#D32F2F",
+    "fontFamily": "Georgia, serif",
+    "titleColor": ""
+  },
+  "assets": {
+    "heroImage": "",
+    "logo": ""
+  },
+  "menu": [
+    {
+      "categoryName": "Neapolitan style pizzas",
+      "description": "",
+      "items": [
+        {
+          "id": "np-margherita",
+          "name": "Margherita",
+          "description": "",
+          "price": 9.99,
+          "image": ""
+        },
+        {
+          "id": "np-prosciutto",
+          "name": "Prosciutto y funghi",
+          "description": "",
+          "price": 12.99,
+          "image": ""
+        },
+        {
+          "id": "np-aoc",
+          "name": "Anchovies, olives and capers",
+          "description": "",
+          "price": 12.99,
+          "image": ""
+        },
+        {
+          "id": "np-salami",
+          "name": "Spicy salami",
+          "description": "",
+          "price": 12.99,
+          "image": ""
+        },
+        {
+          "id": "np-truffle",
+          "name": "Truffle y burrata",
+          "description": "",
+          "price": 14.99,
+          "image": ""
+        },
+        {
+          "id": "np-aubergine",
+          "name": "Aubergine parmigiana",
+          "description": "",
+          "price": 12.99,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "categoryName": "New York style pizzas",
+      "description": "",
+      "items": [
+        {
+          "id": "ny-margherita",
+          "name": "Margherita",
+          "description": "",
+          "price": 8.99,
+          "image": ""
+        },
+        {
+          "id": "ny-pepperoni",
+          "name": "Pepperoni",
+          "description": "",
+          "price": 11.99,
+          "image": ""
+        },
+        {
+          "id": "ny-hotdog",
+          "name": "Hot dog and fries",
+          "description": "",
+          "price": 13.99,
+          "image": ""
+        },
+        {
+          "id": "ny-chicken",
+          "name": "Chicken and mushroom",
+          "description": "",
+          "price": 11.99,
+          "image": ""
+        },
+        {
+          "id": "ny-kale",
+          "name": "Kale and tomato",
+          "description": "",
+          "price": 11.99,
+          "image": ""
+        },
+        {
+          "id": "ny-hawaiian",
+          "name": "Hawaiian",
+          "description": "",
+          "price": 13.99,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "categoryName": "Sides",
+      "description": "",
+      "items": [
+        {
+          "id": "arancini",
+          "name": "Arancini",
+          "description": "",
+          "price": 5.99,
+          "image": ""
+        },
+        {
+          "id": "dough-balls",
+          "name": "Dough Balls",
+          "description": "",
+          "price": 5.99,
+          "image": ""
+        },
+        {
+          "id": "abs-salad",
+          "name": "Artichoke and butternut squash salad",
+          "description": "",
+          "price": 5.99,
+          "image": ""
+        },
+        {
+          "id": "olives",
+          "name": "Olives",
+          "description": "",
+          "price": 3.99,
+          "image": ""
+        },
+        {
+          "id": "mozzarella-sticks",
+          "name": "Mozzarella Sticks",
+          "description": "",
+          "price": 5.99,
+          "image": ""
+        },
+        {
+          "id": "calamari",
+          "name": "Calamari",
+          "description": "",
+          "price": 6.99,
+          "image": ""
+        }
+      ]
+    },
+    {
+      "categoryName": "Dips",
+      "description": "",
+      "items": [
+        {
+          "id": "garlic-mayo-dip",
+          "name": "Garlic Mayo",
+          "description": "",
+          "price": 1.50,
+          "image": ""
+        },
+        {
+          "id": "chipotle-mayo-dip",
+          "name": "Chipotle Mayo",
+          "description": "",
+          "price": 1.50,
+          "image": ""
+        },
+        {
+          "id": "ranch-dip",
+          "name": "Ranch",
+          "description": "",
+          "price": 1.50,
+          "image": ""
+        },
+        {
+          "id": "smoky-bbq-dip",
+          "name": "Smoky BBQ",
+          "description": "",
+          "price": 1.50,
+          "image": ""
+        },
+        {
+          "id": "sweet-chilli-dip",
+          "name": "Sweet Chilli",
+          "description": "",
+          "price": 1.50,
+          "image": ""
+        },
+        {
+          "id": "spicy-tomato-dip",
+          "name": "Spicy Tomato",
+          "description": "",
+          "price": 1.50,
+          "image": ""
+        },
+        {
+          "id": "hot-honey-dip",
+          "name": "Hot Honey",
+          "description": "",
+          "price": 1.50,
+          "image": ""
+        },
+        {
+          "id": "pesto-dip",
+          "name": "Pesto",
+          "description": "",
+          "price": 0,
+          "image": ""
+        }
+      ]
+    }
+  ]
+}
