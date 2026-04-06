@@ -1,0 +1,236 @@
+{
+  "id": "alturo",
+  "name": "Alturo Lounge",
+  "tagline": "A Spanish fusion restaurant perfect to suit all with a wide range of dishes and a tempting tapas deal.",
+  "styling": {
+    "primaryColor": "#78b37a",
+    "fontFamily": "Georgia, serif",
+    "titleColor": ""
+  },
+  "assets": {
+    "heroImage": "https://bunny-wp-pullzone-lgrcnjwfpd.b-cdn.net/wp-content/uploads/2023/06/Alturo-Lounge-Malvern-Web-Crops_BMS2463_.jpg",
+    "logo" : "https://img.freepik.com/premium-vector/outdoor-cord-lounge-armchair-clipart-vector-design-white-background_579306-62846.jpg?semt=ais_incoming&w=740&q=80"
+  },
+  "menu": [
+    {
+      "categoryName": "Starters",
+      "description": "",
+      "items": [
+        {
+          "id": "patatas-bravas",
+          "name": "Patatas Bravas",
+          "description": "",
+          "price": 5.99,
+          "image": "https://vikalinka.com/wp-content/uploads/2023/05/Patatas-Bravas-10-Edit-500x500.jpg"
+        },
+        {
+          "id": "garlic-shrimp",
+          "name": "Garlic Shrimp",
+          "description": "",
+          "price": 5.99,
+          "image": "https://shewearsmanyhats.com/wp-content/uploads/2015/10/garlic-shrimp-recipe-1b-480x360.jpg"
+        },
+        {
+          "id": "croquets",
+          "name": "Croquets",
+          "description": "",
+          "price": 5.99,
+          "image": "https://s6890.pcdn.co/wp-content/uploads/2013/07/croquette-di-patate-11.jpg"
+        },
+        {
+          "id": "pan-aioli",
+          "name": "Pan con aioli",
+          "description": "",
+          "price": 5.99,
+          "image": "https://lh3.googleusercontent.com/-jpNs2ZZMyxE/TXkmHQhcknI/AAAAAAAAC6A/uqwV-d5bksI/s1600/IMG_3433.jpg"
+        },
+        {
+          "id": "meats",
+          "name": "Cured meats and chorizo",
+          "description": "",
+          "price": 5.99,
+          "image": "https://farmfetch.co.uk/cdn/shop/collections/BC_Air_Dried_Ham2.jpg?v=1739135939"
+        },
+        {
+          "id": "gazpacho",
+          "name": "Gazpacho",
+          "description": "",
+          "price": 5.99,
+          "image": "https://www.seriouseats.com/thmb/M0V55hkUtqWV3zqKnhwOYKL1ELc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/easy-gazpacho-recipe-hero-1-7ad49d7b9488406b8c92d576dbe5b205.JPG"
+        }
+      ]
+    },
+    {
+      "categoryName": "Tapas",
+      "description": "4 for the price of 3",
+      "items": [
+        {
+          "id": "tomato-meatballs",
+          "name": "Meatballs",
+          "description": "Served in tomato sauce",
+          "price": 4.99,
+          "image": "https://www.deliciousmagazine.co.uk/wp-content/uploads/2025/05/2025D048_REGIONAL_CLASSICS_ALBONDINGAS_1.jpg"
+        },
+        {
+          "id": "halloumi",
+          "name": "Halloumi Rojo y Verde",
+          "description": "Grilled halloumi with red tomatoes and basil",
+          "price": 4.99,
+          "image": "https://www.zupans.com/app/uploads/2019/07/Cheese_Halloumi.jpg"
+        },
+        {
+          "id": "couscous",
+          "name": "Couscous",
+          "description": "",
+          "price": 4.99,
+          "image": "https://i0.wp.com/spainonafork.com/wp-content/uploads/2017/10/couscous2-11.png?fit=750%2C750&ssl=1"
+        },
+        {
+          "id": "pan-con-tomate",
+          "name": "Pan Con Tomate",
+          "description": "",
+          "price": 4.99,
+          "image": "https://media-cdn2.greatbritishchefs.com/media/z3gn5r2n/img70865.whqc_1426x713q80.jpg"
+        },
+        {
+          "id": "squid",
+          "name": "Fried Squid",
+          "description": "Served with a delicious seafood sauce",
+          "price": 4.99,
+          "image": "https://japanesecooking101.com/wp-content/uploads/2022/09/IMG_3388TN.jpeg"
+        },
+        {
+          "id": "empanada",
+          "name": "Caprese Empanada",
+          "description": "Filled with mozzarella cheese, tomatoes, and basil",
+          "price": 4.99,
+          "image": "https://www.mrsjoneskitchen.com/wp-content/uploads/2023/03/Caprese-Empanadas.jpg"
+        },
+        {
+          "id": "fried-chorizo",
+          "name": "Fried Chorizo",
+          "description": "",
+          "price": 4.99,
+          "image": "https://media-cdn.tripadvisor.com/media/photo-s/08/ca/ed/19/connolly-s-tapas-bar.jpg"
+        },
+        {
+          "id": "chicken-tagine",
+          "name": "Chicken Tagine",
+          "description": "Chicken braised in a rich spice-infused sauce",
+          "price": 4.99,
+          "image": "https://www.allrecipes.com/thmb/KuF3vXf5W8dLGx8o8P9E9-tXn6Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/11715524_Moroccan-Chicken-Tagine_John-Mitzewich_4x3-876bfaad0b4543b2a343ad79edf65a1d.jpg"
+        },
+        {
+          "id": "lamb-kofta",
+          "name": "Lamb Kofta",
+          "description": "",
+          "price": 4.99,
+          "image": "https://poshjournal.com/wp-content/uploads/2020/04/lamb-kofta-kebabs-12.jpg"
+        },
+        {
+          "id": "arancini",
+          "name": "Arancini",
+          "description": "",
+          "price": 4.99,
+          "image": "https://www.sandravalvassori.com/wp-content/uploads/2025/12/Arancini-2150.jpg"
+        }
+      ]
+    },
+    {
+      "categoryName": "Sides",
+      "description": "",
+      "items": [
+        {
+          "id": "fries",
+          "name": "Fries",
+          "description": "",
+          "price": 3.49,
+          "image": "https://latourangelle.com/cdn/shop/articles/hikynvl8pjkjqhvpnok6_1200x.jpg?v=1619198610"
+        },
+        {
+          "id": "sp-fries",
+          "name": "Sweet Potato Fries",
+          "description": "",
+          "price": 3.89,
+          "image": "https://theprettybee.com/wp-content/uploads/2023/05/seasoned-baked-sweet-potato-fries.jpg"
+        },
+        {
+          "id": "olives",
+          "name": "Olives",
+          "description": "",
+          "price": 3.49,
+          "image": "https://www.culinaryconcepts.co.uk/media/catalog/product/cache/a582e05591ce0d8bb3665369830e6c9b/4/1/4185a_.jpg"
+        },
+        {
+          "id": "bread-sticks",
+          "name": "Bread Sticks",
+          "description": "",
+          "price": 3.49,
+          "image": "https://recipesblob.oetker.co.uk/assets/8bf33d5dd9d74bc9899ed4dd18931247/290x400/breadsticks-final.webp"
+        },
+        {
+          "id": "salad-side",
+          "name": "Salad",
+          "description": "",
+          "price": 3.99,
+          "image": "https://www.joyfulhealthyeats.com/wp-content/uploads/2021/01/My-Go-to-Easy-Everyday-Salad-Recipe-web-8.jpg"
+        },
+        {
+          "id": "sauteed-greens",
+          "name": "Sauteed Greens",
+          "description": "",
+          "price": 3.59,
+          "image": "https://www.thespruceeats.com/thmb/xKfv4_baEu7jndKaXha_tI3-uAo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/easy-sauteed-mixed-greens-3377755-hero-01-5c4a34b9c9e77c0001cfecf6.jpg"
+        }
+      ]
+    },
+    {
+      "categoryName": "Dips",
+      "description": "",
+      "items": [
+        {
+          "id": "olive-tapenade",
+          "name": "Olive Tapenade",
+          "description": "",
+          "price": 1.50,
+          "image": "https://www.seriouseats.com/thmb/nfY9sySLU2DtpTk_TXDUU4xkYn4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2015__10__20151016-tapenade-vicky-wasik-9-3f2bcabef53245b89c4fa56ec552d337.jpg"
+        },
+        {
+          "id": "hummus",
+          "name": "Hummus",
+          "description": "",
+          "price": 2.00,
+          "image": "https://cdn.loveandlemons.com/wp-content/uploads/2019/12/hummus-500x500.jpg"
+        },
+        {
+          "id": "pepper-hummus",
+          "name": "Roasted red pepper hummus",
+          "description": "",
+          "price": 2.00,
+          "image": "https://veganinthefreezer.com/wp-content/uploads/2021/03/Roasted-Red-Pepper-Hummus-square-feature-sp.jpg"
+        },
+        {
+          "id": "feta",
+          "name": "Whipped feta",
+          "description": "",
+          "price": 2.99,
+          "image": "https://itsnotcomplicatedrecipes.com/wp-content/uploads/2021/06/whipped-feta5.jpg"
+        },
+        {
+          "id": "garlic-aioli",
+          "name": "Garlic Aioli",
+          "description": "",
+          "price": 1.50,
+          "image": "https://feelslikehomeblog.com/wp-content/uploads/2024/02/the-best-lemon-garlic-aioli-recipe-square-featured.png"
+        },
+        {
+          "id": "spicy-ketchup",
+          "name": "Spicy tomato ketchup",
+          "description": "",
+          "price": 1.50,
+          "image": "https://vintagekitchennotes.com/wp-content/uploads/2023/08/bowl-of-spicy-ketchup.jpeg"
+        }
+      ]
+    }
+  ]
+}
