@@ -1,0 +1,215 @@
+{
+  "id": "olive_tree",
+  "name": "The Olive Tree",
+  "tagline": "A Greek taverna restaurant with everything and more, including a variety of Greek beers on draft!",
+  "styling": {
+    "primaryColor": "#305fa6",
+    "fontFamily": "Georgia, serif",
+    "titleColor": ""
+  },
+  "assets": {
+    "heroImage": "https://i.gyazo.com/a16e8c885994e310a29eb47012467185.png",
+    "logo": "https://i.etsystatic.com/24209592/r/il/84ff28/5902078975/il_fullxfull.5902078975_cgoy.jpg"
+  },
+  "menu": [
+    {
+      "categoryName": "Starters",
+      "description": "",
+      "items": [
+        {
+          "id": "bread",
+          "name": "Bread with tapenades",
+          "description": "",
+          "price": 3.99,
+          "image": "https://www.olivetomato.com/wp-content/uploads/2012/12/DSCN0817.jpg"
+        },
+        {
+          "id": "tzatziki",
+          "name": "Tzatziki",
+          "description": "",
+          "price": 2.49,
+          "image": "https://cdn.loveandlemons.com/wp-content/uploads/2019/07/IMG_19397-cropped-500x375.jpg"
+        },
+        {
+          "id": "saganaki",
+          "name": "Saganaki",
+          "description": "",
+          "price": 3.99,
+          "image": "https://thegreekfoodie.com/wp-content/uploads/2025/02/Saganaki_Greek_Fried_Cheese_SQ1.jpg"
+        },
+        {
+          "id": "mussels",
+          "name": "Mussels",
+          "description": "",
+          "price": 6.99,
+          "image": "https://www.allrecipes.com/thmb/y4u6Z0BRKDGv15tRwva9iwDj-A4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/623506-ee07a0dd74444d25bae9173bd2d54110.jpg"
+        },
+        {
+          "id": "halloumi",
+          "name": "Halloumi and balsamic",
+          "description": "",
+          "price": 4.49,
+          "image": "https://realgreekrecipes.com/wp-content/uploads/2023/10/Halloumi-Cheese-Recipe.jpg"
+        },
+        {
+          "id": "salad",
+          "name": "Greek Salad",
+          "description": "",
+          "price": 4.99,
+          "image": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/greek_salad_16407_16x9.jpg"
+        },
+        {
+          "id": "spanakopita",
+          "name": "Spanakopita",
+          "description": "",
+          "price": 4.99,
+          "image": "https://www.allrecipes.com/thmb/Xes_ky5_0MJ7JNMp5fzHkoH2y0Y=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/18417-spanakopita-greek-spinach-pie-DDMFS-Hero-2x1-24958-1-d1f1939a110d41aca9ff456feb0f8eb9.jpg"
+        },
+        {
+          "id": "leaves",
+          "name": "Vine Leaves",
+          "description": "",
+          "price": 4.99,
+          "image": "https://www.supergoldenbakes.com/wordpress/wp-content/uploads/2025/08/Dolmades_Greek_Stuffed_Vine_Leaves-1-2.jpg"
+        },
+        {
+          "id": "gigantes-plaki",
+          "name": "Gigantes Plaki",
+          "description": "",
+          "price": 4.49,
+          "image": "https://images.immediate.co.uk/production/volatile/sites/2/2019/04/GreekBakedBeans-631df78.jpg?quality=90&resize=708,643"
+        }
+      ]
+    },
+    {
+      "categoryName": "Mains",
+      "description": "",
+      "items": [
+        {
+          "id": "souvlaki",
+          "name": "Souvlaki",
+          "description": "Chicken, lamb, or pork",
+          "price": 13.99,
+          "image": "https://realgreekrecipes.com/wp-content/uploads/2025/02/Greek-Chicken-Souvlaki-Recipe.jpg"
+        },
+        {
+          "id": "gyros",
+          "name": "Gryos",
+          "description": "Chicken, lamb, or pork",
+          "price": 12.99,
+          "image": "https://cdn.tasteatlas.com/Images/Dishes/9476a0cfe17349a38568e8bb85f2b063.jpg"
+        },
+        {
+          "id": "pastitsio",
+          "name": "Pastitsio",
+          "description": "",
+          "price": 13.49,
+          "image": "https://www.allrecipes.com/thmb/DqBtUTwo7O0dtCNKTRsFmtkovWs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/23159-pastitsio-mfs-4x3-9e683d6267b4426c9cafface4f22b688.jpg"
+        },
+        {
+          "id": "beef-stifado",
+          "name": "Beef Stifado",
+          "description": "",
+          "price": 13.99,
+          "image": "https://www.dimitrasdishes.com/wp-content/uploads/2024/10/WEB-TOP-1-720x720.jpg"
+        },
+        {
+          "id": "gemista",
+          "name": "Gemista",
+          "description": "",
+          "price": 11.99,
+          "image": "https://akispetretzikis.com/photos/166853/gemista-21-2-23-site.jpeg"
+        },
+        {
+          "id": "briam",
+          "name": "Briam",
+          "description": "",
+          "price": 11.49,
+          "image": "https://www.mygreekdish.com/wp-content/uploads/2014/03/Briam-recipe-Delicious-Greek-mixed-Roasted-Vegetables-scaled.jpg"
+        },
+        {
+          "id": "moussaka",
+          "name": "Moussaka",
+          "description": "",
+          "price": 13.99,
+          "image": "https://www.recipetineats.com/tachyon/2019/03/Greek-Moussaka_3-re-edited-SQ.jpg?resize=500%2C375"
+        },
+        {
+          "id": "veg-moussaka",
+          "name": "Moussaka (VG)",
+          "description": "",
+          "price": 13.49,
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiml54Z7f_0Ex6gSF-b5VKM_NYvW0KzV9YdL5cog_y6rfJEQPhCyNo-LmSPAJau3iBxEKp2JycKkuskKD3_YuROnOfe_HcS-MOqIuMChcvp7v20B1HFw3aeSieyAhehJdF0OleFMU03o9flsuXpDuqGaYWXITRnqHtHm6cSxw5sFup-yDvtG-5IhRts/w1200-h630-p-k-no-nu/vegetarian-moussaka.jpg"
+        }
+      ]
+    },
+    {
+      "categoryName": "Sides",
+      "description": "",
+      "items": [
+        {
+          "id": "fries",
+          "name": "Fries",
+          "description": "",
+          "price": 3.99,
+          "image": "https://www.olivetomato.com/wp-content/uploads/2018/01/Olive-Oil-Fries.jpg"      
+        },
+        {
+          "id": "pita-bread",
+          "name": "Pita bread",
+          "description": "",
+          "price": 2.99,
+          "image": "https://www.allrecipes.com/thmb/Bs2-IBv4Hy1g4f61OA_w4WEcoAg=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/AR-232719-homemade-pita-bread-DDMFS-4x3-beauty-4f82a2ae98444cf58969214e3d8f66f0.jpg"     
+        },
+        {
+          "id": "fried-zucchini",
+          "name": "Fried zucchini",
+          "description": "",
+          "price": 4.49,
+          "image": "https://www.liveeatlearn.com/wp-content/uploads/2025/08/Air-Fried-Zucchini-vert.jpg"     
+        },
+        {
+          "id": "rice",
+          "name": "Mediterranean rice",
+          "description": "",
+          "price": 3.99,
+          "image": "https://mypureplants.com/wp-content/uploads/2023/11/Mediterranean-Rice-Pilaf-feat.jpg"     
+        }
+      ]
+    },
+    {
+      "categoryName": "Beers",
+      "description": "",
+      "items": [
+        {
+          "id": "mythos",
+          "name": "Mythos",
+          "description": "",
+          "price": 2.99,
+          "image": "https://upload.wikimedia.org/wikipedia/en/b/b4/Mythosofficiallogo.jpg"      
+        },
+        {
+          "id": "alfa",
+          "name": "Alfa",
+          "description": "",
+          "price": 2.99,
+          "image": "https://i.colnect.net/f/3503/628/ALFA_beer_One_step_is_enough.jpg"     
+        },
+        {
+          "id": "fix",
+          "name": "Fix",
+          "description": "",
+          "price": 2.99,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYxCkehDwCH_pOw1C0pZhCcHxq9Sykhl8uSQ&s"     
+        },
+        {
+          "id": "mamos",
+          "name": "Mamos",
+          "description": "",
+          "price": 2.99,
+          "image": "https://pintplease.s3.eu-west-1.amazonaws.com/beer/profile/mamos___52726-141072200.jpeg"     
+        }
+      ]
+    }
+  ]
+}
