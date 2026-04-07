@@ -17,7 +17,7 @@ body {
 
 body.page-loaded {
     opacity: 1;
-    transform: scale(1);
+    transform: none;
 }
 
 #restaurant-header {
@@ -167,6 +167,48 @@ body.page-loaded {
 }
 .add-btn:hover { opacity: 0.9; }
 
+.action-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-qty-controls {
+    display: flex;
+    align-items: center;
+    background-color: var(--bg-color);
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    padding: 2px;
+}
+
+.menu-qty-controls button {
+    background: white;
+    color: var(--primary-color);
+    border: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+.menu-qty-controls button:hover {
+    background: #e0e0e0;
+}
+
+.menu-qty-controls span {
+    min-width: 24px;
+    text-align: center;
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+
 .error-container {
     height: 80vh;
     display: flex;
@@ -202,6 +244,76 @@ body.page-loaded {
 .error-btn:hover {
     background-color: black;
     transform: scale(1.05);
+}
+
+.toast {
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%) translateY(100px);
+    background-color: var(--primary-color, #333);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    opacity: 0;
+    transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55), opacity 0.3s ease;
+    z-index: 9999;
+    pointer-events: none;
+}
+
+.toast.show {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
+}
+
+.floating-basket-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #333;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.floating-basket-btn:hover {
+    transform: scale(1.08) translateY(-3px);
+    background: #000;
+}
+
+.basket-icon-img {
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+}
+
+.basket-badge {
+    position: absolute;
+    top: -4px;   
+    right: -4px; 
+    background: #e74c3c;
+    color: white;
+    border-radius: 50%;
+    width: 28px; 
+    height: 28px;
+    box-sizing: border-box; 
+    display: grid;
+    place-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border: 2px solid #fff; 
+    padding-left: 8px; 
 }
 
 @media (max-width: 768px) {

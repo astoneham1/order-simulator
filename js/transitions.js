@@ -33,3 +33,20 @@ window.addEventListener('pageshow', (event) => {
         document.body.classList.add('page-loaded');
     }
 });
+
+function updateBasketBadge() {
+    const badge = document.getElementById('basket-badge');
+    if (!badge) return;
+
+    let cart = JSON.parse(localStorage.getItem('my_cart')) || [];
+    let totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+
+    if (totalItems > 0) {
+        badge.innerText = totalItems;
+        badge.style.display = 'inline-block'; 
+    } else {
+        badge.style.display = 'none'; 
+    }
+}
+
+document.addEventListener('DOMContentLoaded', updateBasketBadge);
